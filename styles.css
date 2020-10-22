@@ -1,0 +1,196 @@
+* {
+	margin: 0px;
+}
+
+html {
+	font-size: 16px;
+	font-family: "Rubik", sans-serif;
+}
+
+/* -------- MENU --------*/
+.menu {
+	padding: 0 1%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: 700;
+	background-color: rgba(255, 216, 249, 0.50);
+	margin-bottom: 10px;
+}
+
+.menu .logo {
+	flex-grow: 1;
+	color: #B13AF0;
+	padding-left: 2.2rem;
+}
+
+.menu li{
+	display: inline;
+	padding-right: 2.2rem;
+	text-decoration: underline;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #B13AF0;
+}
+
+/* -------- CONTENT --------*/
+.content {
+	margin: 0 auto;
+	width: 80%;
+}
+
+/* Colors */
+.select-color {
+	border: 0.9px solid #B13AF0;
+	padding: 1%;
+}
+
+.select-color h2 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+#all-colors {
+	display: flex;
+	align-items: flex-start;
+}
+
+.color {
+	height: 100px;
+	width: 100px;
+	padding: 1%;
+	display: flex;
+	align-items: center;
+	margin-right: 3%;
+	border: 2px solid white;
+	border-radius: 20px;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.color h3 {
+	flex-grow: 1;
+	text-align: center;
+	color: #242424;
+}
+
+.color.aqua {
+	background-color: #2AECD8;
+}
+
+.color.red {
+	background-color: #BB1438;
+}
+
+.color.green {
+	background-color: #4AE410;
+}
+
+.color.yellow {
+	background-color: #E8F30F;
+}
+
+.color.orange {
+	background-color: #F3990F;
+}
+
+.color.pink {
+	background-color: #E629F2;
+}
+
+.color.blue {
+	background-color: #140877;
+}
+
+.color.white {
+	background-color: #FFFFFF;
+	border: 0.9px solid #B13AF0;
+}
+
+/* Fonts */
+.select-font {
+	margin-top: 10px;
+	border: 0.9px solid #B13AF0;
+	padding: 1%;
+}
+
+.select-font h2 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.all-fonts {
+	display: flex;
+}
+
+.all-fonts h3{
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
+
+.font {
+	margin-bottom: 10px;
+	margin-right: 20px;
+	flex-grow: 1;
+}
+
+.font.rubik p {
+	font-family: "Rubik", sans-serif;
+}
+
+.font.raleway {
+	font-family: "Raleway", sans-serif;
+}
+
+.font.montserrat {
+	font-family: "Montserrat", serif;
+}
+
+.font.piazzolla {
+	font-family: "Piazzolla", sans-serif;
+}
+
+.font.one {
+	font-weight: 700;
+}
+
+.font.two {
+	font-weight: 400;
+}
+
+.font.three {
+	font-weight: 200;
+}
+
+.font.four {
+	font-style: italic;
+}
+
+.text-styles {
+	border: 0.9px solid #B13AF0;
+	padding: 1%;
+	margin-top: 10px;
+}
+
+.text-styles h2 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.text-styles h1 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.text-styles h2 {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.text-styles p {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
